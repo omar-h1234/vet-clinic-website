@@ -18,7 +18,7 @@ CSS: For styling and enhancing the visual presentation of the website.
 JavaScript: For adding interactive elements and enhancing user experience.
 Bootstrap: For creating a responsive and mobile-first design.
 Live Demo
-Check out the live demo of the Happy Paws Vet Clinic website here: Happy Paws Vet Clinic or https://omar-h1234.github.io/vet-clinic-website/
+Check out the live demo of the Happy Paws Vet Clinic website here: https://omar-h1234.github.io/vet-clinic-website/
 
 Running Locally
 You can run this website locally by downloading the directories and opening the index.html file in your web browser.
