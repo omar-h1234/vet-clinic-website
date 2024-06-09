@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Confirm - Happy Paws Vet Clinic</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background-color: #f7f7f7;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .confirmation-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .confirmation-box {
+      background-color: #fff;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .confirmation-box h1 {
+      font-size: 2.5em;
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+
+    .confirmation-box p {
+      font-size: 1.2em;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .btn-home {
+      display: inline-block;
+      padding: 10px 30px;
+      font-size: 1em;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn-home:hover {
+      background-color: #0056b3;
+    }
+
+    .footer {
+      margin-top: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="confirmation-container">
+    <div class="confirmation-box">
+      <h1>The Appointment is Confirmed!</h1>
+      <p>Thank you for booking with Happy Paws Vet Clinic. Your appointment has been successfully scheduled. We look forward to seeing you and your pet!</p>
+      <a href="index.html" class="btn-home">Return to Home Page</a>
+    </div>
+    <div class="footer">
+      <p>&copy; <span id="displayYear">2024</span> Happy Paws Vet Clinic. All Rights Reserved.</p>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    document.getElementById('displayYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
